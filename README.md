@@ -6,13 +6,9 @@ Actualizacion de archivos puesto que la actualizacion automatica de repositorio 
 -Cambios importantes en la estructura del proyecto y las versiones contenidas en GitHub: Si la actualización implica cambios significativos en la estructura del proyecto o en los requisitos técnicos, se puede justificar que tomará más tiempo y esfuerzo para realizar correctamente la actualización. Es importante destacar que estos cambios son necesarios para mejorar la eficiencia y la funcionalidad del proyecto.
 
 -La necesidad y el propósito del cambio de nombre del clave del proyecto es contemplado por el desarrollador para su facil versionamiento y puesto que el desarrollador tiene la libertad de elegir un nombre clave que puede ser utilizado durante el proceso de desarrollo antes de que el software se lance oficialmente con un nombre comercial.
-Entonces desde este momento el proyecto tendra el nombre clave de Rubi y su correspondiente versionamiento a partir de esta version considerada como la V1.0
+Entonces desde este momento el proyecto tendra el nombre clave de Rubi y su correspondiente versionamiento
 
--A pesar del cambio de nombre, el proyecto sigue siendo el mismo en términos de sus objetivos, alcance y propósito
+-A pesar del cambio de nombre, el proyecto sigue siendo el mismo en términos de sus objetivos, alcance y propósito.
 
--Esta nueva version contiene cambios a etiquetas HTML
--Mejoras de diseño de boton flotante
--Se Añade imagenes dentro del codigo todavia no utilizadas
--Eliminacion de codigo redundante
-
+Desarrollador
 {Ronin}
