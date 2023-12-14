@@ -84,6 +84,7 @@ body {
     width: 30px;
 }
 
+
 .nav__close {
     display: var(--show, none);
 }
@@ -203,10 +204,10 @@ body {
     border: 1px solid #fff;
     position: fixed;
     z-index: 999;
-    border-radius: 50%;
-    bottom: 20px;
-    right: 25px;
-    padding: 25px;
+    border-radius: 90%;
+    bottom: 60px;
+    right: 10px;
+    padding: 10px;
     transition: ease 0.3s;
     animation: efecto 1.2s infinite;
 }
@@ -226,7 +227,7 @@ body {
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
     }
     100%{
-        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
     }
 }
 /*fin de boton flotante whatsapp*/
