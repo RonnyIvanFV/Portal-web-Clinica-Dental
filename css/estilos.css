@@ -205,7 +205,19 @@ body {
     position: fixed;
     z-index: 999;
     border-radius: 90%;
-    bottom: 60px;
+    bottom: 130px;
+    right: 10px;
+    padding: 10px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+.container-botonRobot{
+    background-color: #2045ea;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 90%;
+    bottom: 20px;
     right: 10px;
     padding: 10px;
     transition: ease 0.3s;
