@@ -1,6 +1,7 @@
 <?php
 // conectando a la base de datos LOCAL HOST
 $conn = mysqli_connect("localhost", "root", "", "chatbot") or die("Database Error");
+//El host externo se mantiene Comentado para trabajar de forma Local con Xampp
 // conectando a la base de datos HOST OFICIAL
 //$conn = mysqli_connect("localhost", "u411058104_usuario_rubi", "@iDeV#w5", "u411058104_chatbotrubi") or die("Database Error");
 
