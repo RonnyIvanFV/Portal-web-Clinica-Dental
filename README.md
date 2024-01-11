@@ -17,4 +17,4 @@ Entonces desde este momento el proyecto tendra el nombre clave de Rubi y su corr
 -A pesar del cambio de nombre, el proyecto sigue siendo el mismo en términos de sus objetivos, alcance y propósito.
 
 Desarrollador
-{Ronin}
+{TheRonin}
