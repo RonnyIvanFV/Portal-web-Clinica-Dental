@@ -23,5 +23,5 @@ if (mysqli_num_rows($run_query) > 0) {
 } else {
     echo "¡Lo siento, no puedo ayudarte con este inconveniente! Favor comunícate con el administrador en el siguiente enlace:
     
-    </br><a href='https://www.configuroweb.com/contacto/'>Comntacto</a>";
+    </br><a href='nn'>Comntacto</a>";
 }

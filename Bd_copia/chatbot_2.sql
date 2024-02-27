@@ -38,13 +38,13 @@ CREATE TABLE `chatbot` (
 --
 
 INSERT INTO `chatbot` (`id`, `queries`, `replies`) VALUES
-(1, '1', 'De lunes a viernes\r\n\r\n    Mañana 08:30 - 12:30\r\n    Tarde 14:30 - 18:30\r\nHorarios especiales\r\nFeriados \r\n    Tarde 14:30 - 18:30\r\n'),
-(2, '2', 'Direccion Av. Buenos Aires Nro 234 al lado del Mercado Hinojosa, puedes ver la Ubicacion exacta en un mapa visitando el siguiente enlace www.'),
+(1, '1', 'De lunes a viernes\r\n\r\n    Mañana 09:00 - 12:30\r\n    Tarde 14:30 - 21:00\r\nHorarios especiales\r\nFeriados \r\n    Tarde 14:30 - 18:30\r\n'),
+(2, '2', 'Direccion Av. Buenos Aires Nro 1102 al lado del Mercado Hinojosa, puedes ver la Ubicacion exacta en un mapa visitando el siguiente enlace www.'),
 (3, '3', 'Ofrecemos los siguientes tratamientos\r\n-Diagnostico y Prevencion\r\n-Ortodoncia\r\n-Implantes\r\n-Odonto Pediatria\r\n-Estetica dental\r\n-Periodoncia\r\n-Protesis\r\n-Caries'),
-(4, '4', ' PROMOCIÓN REGRESO A CLASES\r\n PACK PREVENTIVO Regreso a clases\r\n\r\nIncluye:\r\n- Evaluación preventiva\r\n- Limpieza profunda (profilaxis dental)\r\n- aplicación flúor gel\r\n- Curación pequeña'),
+(4, '4', 'PROMOCIÓN REGRESO A CLASES\r\n PACK PREVENTIVO Regreso a clases\r\n\r\nIncluye:\r\n- Evaluación preventiva\r\n- Limpieza profunda (profilaxis dental)\r\n- aplicación flúor gel\r\n- Curación pequeña'),
 (5, '5', 'Recomendaciones para pacientes\r\nseleccione el tipo de tratamiento\r\n1)Extraccion\r\n2)protesis\r\n3)tratamiento de consucto\r\n4)limpieza de caries\r\n5)ortodoncia'),
 (6, '6', 'Agende su cita de Diagnostico y Prevencion totalmente Gratis en el siguiente enlace'),
-(7, '7', 'Atencion de Emergencia porfavor haga clic en el siguiente enlace parac omunicarse con uno de nuestros especialistas');
+(7, '7', 'Atencion de Emergencia porfavor haga clic en el siguiente enlace para comunicarse con uno de nuestros especialistas de forma inemdiata');
 
 --
 -- Indexes for dumped tables
