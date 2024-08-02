@@ -1,22 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reseñas</title>
+   
+    <link rel="shortcut icon" href="./images/diente(1).png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="css/estiloforrm.css">
+    
+
+    <meta name="theme-color" content="#2091F9">
 </head>
+
 <body>
-    <!--Boton flotante de chatbot whatsapp-->
-    <div class="container-boton">
-        <a href="https://wa.me/+59163262665?text=Hola%20quisiera%20agendar%20una%20cita%20" target="_blank">
-            <img class="boton" src="images/whatsapp-btn.png" width="10%" height="10%" alt="">
-        </a>
-    </div>
-    <!--Boton flotante de chatbot Robot-->
-    <div class="container-botonRobot">
-        <a href="chatbot.php" target="_blank">
-            <img class="boton" src="images/robot.png" width="7%" height="7%" alt="robot"title="Necesitas Ayuda???">
-        </a>
-    </div>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Reseñas</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="" class="nav__links">Quienes Somos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="trat.html" class="nav__links">Tratamientos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="cont.html" class="nav__links">Contactos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Reseñas</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">"¡Tu opinión cuenta! Comparte tu experiencia positiva sobre nuestra excelente atención"</h1>
+            <p class="hero__paragraph">La Clinica Dental Innovacion defiende que una buena práctica profesional no puede ignorar la ética que rige cualquier especialidad médica o de salud, ni los principios de calidad y responsabilidad a los que todo médico está obligado para con sus pacientes. Somos un proyecto original y diferente, que basa su acción en la confianza entre el paciente y su dentista, así como en la honestidad y seguridad que este debe transmitirles.</p>
+            <a href="#" class="cta">Entérate de Nuestras Promociones</a>
+        </section>
+    </header>
+
+//nuevito
+<div class="container">
+    <h1>Formulario de Reseña</h1>
+    <form action="/enviar-reseña" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="fecha">Fecha de tu visita:</label>
+            <input type="text" id="fecha" name="fecha" placeholder="DD/MM/AAAA" required>
+        </div>
+
+        <div class="form-group">
+            <label>Califica la calidad de la atención que recibiste:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="calificacion" value="5" required> ⭐⭐⭐⭐⭐ (Excelente)</label>
+                <label><input type="radio" name="calificacion" value="4"> ⭐⭐⭐⭐ (Muy buena)</label>
+                <label><input type="radio" name="calificacion" value="3"> ⭐⭐⭐ (Buena)</label>
+                <label><input type="radio" name="calificacion" value="2"> ⭐⭐ (Regular)</label>
+                <label><input type="radio" name="calificacion" value="1"> ⭐ (Pobre)</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="aspectos">¿Qué aspectos te gustaron más sobre el servicio?</label>
+            <textarea id="aspectos" name="aspectos" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="mejoras">¿Hay algo que crees que podríamos mejorar?</label>
+            <textarea id="mejoras" name="mejoras" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="comentarios">Comentarios adicionales:</label>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>¿Te gustaría que te contactáramos para más detalles?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="contacto" value="si" required> Sí</label>
+                <label><input type="radio" name="contacto" value="no"> No</label>
+            </div>
+            <div id="contacto-info" class="hidden">
+                <label for="contacto-info">Por favor proporciona tu correo electrónico o número de teléfono:</label>
+                <input type="text" id="contacto-info" name="contacto-info">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Enviar Reseña</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    document.querySelectorAll('input[name="contacto"]').forEach(input => {
+        input.addEventListener('change', function() {
+            document.getElementById('contacto-info').classList.toggle('hidden', this.value === 'no');
+        });
+    });
+</script>
+
+
 </body>
+
 </html>
