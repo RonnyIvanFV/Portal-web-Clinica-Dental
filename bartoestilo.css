@@ -1,0 +1,39 @@
+/* styles.css */
+
+
+.box {
+    background-color: #88a6f8;
+    width: 300px;
+    border: 5px solid #21d150;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: #61dafb;
+}
+
+.typing-effect {
+    font-size: 24px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    overflow: hidden; /* Oculta el texto que se desplaza fuera del contenedor */
+    border-right: 3px solid #61dafb; /* Cursor de la máquina de escribir */
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #61dafb;
+    }
+}

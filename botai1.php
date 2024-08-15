@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatBot Rubi IA</title>
-    <link rel="stylesheet" href="css2/style.css">
+    <link rel="stylesheet" href="css2/botai1style.css">
+    
     <link rel="shortcut icon" href="./images/diente(1).png" type="image/x-icon">
 </head>
 
@@ -13,7 +14,7 @@
        
             <div class="chatbox">
                     <div class="header">
-                        <h4> <img src='img/perfil.jpg' class='imgRedonda'/> Rubi.IA </h4>
+                        <h4> <img src='img/robotRubiv3.png' class='imgRedonda'/> Rubi.IA </h4>
                                     
                     </div>
                     
@@ -36,7 +37,7 @@
         </div>
     </div>
     
-    <script src="app.js"></script>
+    <script src="maqui_script.js"></script>
     
             <SCRIPT LANGUAGE="JavaScript">
         function mi_alerta () {

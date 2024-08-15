@@ -4,8 +4,11 @@ $bot = new Bot;
 $questions = [
     //Entrenamiento Base del conocimiento
     //Horarios de Atencion
-    "atencion" => "La atencion de la Clinica Dental es de lunes a viernes por las mañanas de 9:00 AM a 12 00 PM y por las tardes de 4:30 PM a 9:00 PM y los sabados de 9:00 AM a 7:00 PM",
+    "atencion" => "La atencion de la Clinica Dental es de lunes a viernes por las mañanas de 9:00 AM a 12 00 PM y por las tardes de 4:30 PM a 9:00 PM y los sabados de 9:00 AM a 7:00 PM ",
+    
     "a que hora puedo venir" => "La atencion de la Clinica Dental es de lunes a viernes por las mañanas de 9:00 AM a 12 00 PM y por las tardes de 4:30 PM a 9:00 PM y los sabados de 9:00 AM a 7:00 PM, puede realizar una cita por whatsapp al 63262665",
+    "quisiera hacer una cita para mañana" => "Claro que si, porfavor comunicate con el siguiente numero / whatsapp 63262665 para programar tu cita",
+    "quisiera una cita para mañana" => "Claro que si, porfavor comunicate con el siguiente numero / whatsapp 63262665 para programar tu cita",
     "a que hora puedo pasar" => "La atencion de la Clinica Dental es de lunes a viernes por las mañanas de 9:00 AM a 12 00 PM y por las tardes de 4:30 PM a 9:00 PM y los sabados de 9:00 AM a 7:00 PM, puede realizar una cita por whatsapp al 63262665",
     "a que hora puedo venir?" => "La atencion de la Clinica Dental es de lunes a viernes por las mañanas de 9:00 AM a 12 00 PM y por las tardes de 4:30 PM a 9:00 PM y los sabados de 9:00 AM a 7:00 PM, puede realizar una cita por whatsapp al 63262665",
     "a que hora puedo pasar?" => "La atencion de la Clinica Dental es de lunes a viernes por las mañanas de 9:00 AM a 12 00 PM y por las tardes de 4:30 PM a 9:00 PM y los sabados de 9:00 AM a 7:00 PM, puede realizar una cita por whatsapp al 63262665",
@@ -196,6 +199,8 @@ $questions = [
     "como te llamas?" =>"Mi nombre es Rubi IA un asistente virtual para brindarte informacion acerca de la Clinica Dental",
     "como te llamas" =>"Mi nombre es Rubi IA un asistente virtual para brindarte informacion acerca de la Clinica Dental",
     "cual es tu nombre?" =>"Soy Rubi IA un asistente virtual para brindarte informacion acerca de la Clinica Dental Innovacion",
+    "quien eres?" =>"Soy Rubi IA un asistente virtual para brindarte informacion acerca de la Clinica Dental Innovacion",
+    "quien eres" =>"Soy Rubi IA un asistente virtual para brindarte informacion acerca de la Clinica Dental Innovacion",
     "tienes nombre?" =>"Soy Rubi IA un asistente virtual para brindarte informacion acerca de la Clinica Dental",
     "quien es rubi?" =>"Rubi IA un asistente virtual para brindarte informacion acerca de la Clinica Dental",
     "tienes nombre" =>"Soy Rubi IA un asistente virtual para brindarte informacion acerca de la Clinica Dental",
