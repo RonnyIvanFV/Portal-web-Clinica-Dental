@@ -216,9 +216,12 @@ $questions = [
 
     //saludo
     "hola" =>"Hola que tal! en que te puedo ayudar",
+    "hola que tal" =>"Hola! en que te puedo ayudar",
+    "que tal" =>"Hola como estas! en que te puedo ayudar",
     "buenos dias" =>"Hola que como estas! en que te puedo ayudar",
     "buen dia" =>"Hola que como estas! en que te puedo ayudar",
-    "hola buenos dias" =>"Hola que tal! en que te puedo ayudar",
+    "hola buenos dias" =>"buenos dias! en que te puedo ayudar",
+    "hola buenos dia" =>"Hola! en que te puedo ayudar",
     "hola buenas noches" =>"Hola buenas noches en que te puedo ayudar",
     "hola buenas tardes" =>"Hola buenas tardes en que te puedo ayudar",
     "un saludo" =>"como te va",
